@@ -16,3 +16,25 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front.index');
 });
+Route::get('/contact-us', function () {
+    return view('front.contact-us');
+});
+
+Route::get('/terms-and-conditions', function () {
+    $title = "Terms and Conditions";
+    return view('front.terms-and-conditions',compact('title'));
+});
+
+Route::get('/privacy-policy', function () {
+    $title = "Privacy Policy";
+    return view('front.privacy-policy' ,compact('title'));
+});
+
+Route::get('/copyright', function () {
+    $title = "Copyright Statement";
+    return view('front.copyright' ,compact('title'));
+});
+
+Route::get('/health-and-safety', function () {
+    return view('front.health-and-safety');
+});

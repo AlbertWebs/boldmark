@@ -175,8 +175,8 @@
                                                 </ul>
                                             </li>
 
-                                            <li><a href="{{url('/')}}/uploads/New-Boldmark-Profile-rd.pdf"><span class="fa fa-download"></span> Company Profile</a></li>
-                                            <li><a href="#">Contact us</a></li>
+                                            <li><a download href="{{url('/')}}/uploads/New-Boldmark-Profile-rd.pdf"><span class="fa fa-download"></span> Company Profile</a></li>
+                                            <li><a href="{{url('/')}}/contact-us">Contact us</a></li>
                                         </ul>
 
                                     </div>
@@ -255,10 +255,10 @@
                                 <h3 class="widget-title text-center">Important Links</h3>
                                 <ul class="text-center">
                                     <li><a href="#">Health and Safety</a></li>
-                                    <li><a href="#">Terms and Conditions</a></li>
-                                    <li><a href="#">Copyright Statement</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Our Strategy</a></li>
+                                    <li><a href="{{url('/')}}/terms-and-conditions">Terms and Conditions</a></li>
+                                    <li><a href="{{url('/')}}/copyright">Copyright Statement</a></li>
+                                    <li><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></li>
+                                    <li><a href="{{url('/')}}/strategy">Our Strategy</a></li>
 
                                 </ul>
                             </div>
