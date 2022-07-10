@@ -20438,3 +20438,21 @@ margin-right: 30px;
 }
 .post-style-12 .wt-post-info .wt-post-title {margin-bottom: 0px;}
 .post-style-12:hover .wt-post-info:before{bottom: -8px;}
+
+.get-in-touch-wraper{
+    min-height: 300px;
+    padding:100px;
+    text-align: center;
+}
+@media only screen and ( max-width:760px) {
+     .wt-title{
+        min-width:100% !important;
+        padding: 10px !important;
+     }
+     .get-in-touch-wraper{
+        min-height: auto;
+        padding:5px;
+        text-align: center;
+    }
+}
+

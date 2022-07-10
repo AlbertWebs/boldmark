@@ -237,15 +237,15 @@
 
 
     <!-- GET IN TOUCH SECTION START -->
-    <div class="section-full p-t0 p-b50 bg-white get-in-touch-wraper" style="min-height: 300px; padding:100px">
+    <div class="section-full p-t0 p-b50 bg-white get-in-touch-wraper">
 
         <div class="container">
             <div class="get-in-touch">
 
                 <div class="row justify-content-between d-flex align-items-center">
                     <div class="col-lg-12 col-md-12">
-                        <div class="get-in-touch-pic text-center" style="min-height: 200px;">
-                            {{-- <img src="{{asset('theme/images/home-11/afro-american-builders-wearing-helmets-face-masks-while-working-removebg-preview.png')}}" alt=""> --}}
+                        {{-- <div class="get-in-touch-pic text-center" style="min-height: 200px;"> --}}
+
                             <!-- Circle Animation Start-->
                                 {{-- <div class='ripple-background'>
                                     <div class='ls-circle ls-xxlarge ls-shade1'></div>
@@ -255,12 +255,11 @@
                                     <div class='ls-circle ls-small ls-shade5'></div>
                                 </div> --}}
                             <!-- Circle Animation End-->
-                            <h2 class="wt-title">Quality and reliability services to
-                                provide a solution to your project,
-                                we do it all and fast
+                            <h2 class="wt-title text-center">Quality and reliabile services to
+                                provide a solution to your project
                             </h2>
                             <a download="" href="{{url('/')}}/uploads/New-Boldmark-Profile-rd.pdf" class="site-button site-btn-effect"><i class="fa fa-download"></i> Download Profile</a>
-                        </div>
+                        {{-- </div> --}}
                     </div>
 
                 </div>
