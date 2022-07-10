@@ -11,8 +11,7 @@
     <meta name="description" content="" />
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.html" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png')}}" />
+    @include('favicon')
 
     <!-- PAGE TITLE HERE -->
     <title>Construction Company in Kenya | Boldmark Contruction Limited</title>
@@ -49,9 +48,9 @@
 
 
      <!-- REVOLUTION SLIDER CSS -->
-    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/plugins/revolution/revolution/css/settings.css')}}">
     <!-- REVOLUTION NAVIGATION STYLE -->
-    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/plugins/revolution/revolution/css/navigation.css')}}">
 
     <!-- GOOGLE FONTS -->
     <link href="../../fonts.googleapis.com/cssa99a.css?family=Teko:300,400,500,600,700&amp;display=swap" rel="stylesheet">
@@ -72,8 +71,8 @@
                         <div class="header-middle d-flex justify-content-between align-items-center">
                             <div class="logo-header">
                                 <div class="logo-header-inner logo-header-one">
-                                    <a href="index.html">
-                                    <img src="#" alt="BoldMarkLogo">
+                                    <a href="{{url('/')}}">
+                                    <img src="{{url('/')}}/uploads/logo.png" alt="BoldMarkLogo">
                                     </a>
                                 </div>
                             </div>
@@ -222,9 +221,9 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="widget widget_about">
                                 <div class="logo-footer clearfix">
-                                    <a href="#"><img src="#" alt="Logo" ></a>
+                                    <a href="{{url('/')}}"><img src="{{url('/')}}/uploads/logo-footer.png" alt="Boldmark Contruction LTD" ></a>
                                 </div>
-                                <p class="text-center">Boldmark construction ltd is an all-in-one construction company where we do both big and small residential and business buildings.</p>
+                                {{-- <p class="text-center">Boldmark construction ltd is an all-in-one construction company where we do both big and small residential and business buildings.</p> --}}
                              </div>
                             <div class="widget recent-posts-entry">
                                <ul class="widget_address">
