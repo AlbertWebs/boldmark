@@ -175,7 +175,7 @@
                                                 </ul>
                                             </li>
 
-
+                                            <li><a href="{{url('/')}}/uploads/New-Boldmark-Profile-rd.pdf"><span class="fa fa-download"></span> Company Profile</a></li>
                                             <li><a href="#">Contact us</a></li>
                                         </ul>
 
