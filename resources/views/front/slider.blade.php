@@ -105,35 +105,7 @@
                         color:#fff;
                         border-width:0px; font-family: 'Exo', sans-serif; text-transform:uppercase;">We Build Your Visions With Perfection</div>
 
-                        <!-- LAYER NR. 4 [ for paragraph] -->
-                        <div class="tp-caption  tp-resizeme"
-                        id="slide-901-layer-4"
-                        data-x="['left','left','left','left']" data-hoffset="['30','120','30','30']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['50','130','100','80']"
-                        data-fontsize="['16','16','20','14']"
-                        data-lineheight="['30','30','30','22']"
-                        data-width="['600','600','90%','90%']"
-                        data-height="['none','none','none','none']"
-                        data-whitespace="['normal','normal','normal','normal']"
 
-                        data-type="text"
-                        data-responsive_offset="on"
-                        data-frames='[
-                        {"from":"y:100px(R);opacity:0;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeOut"},
-                        {"delay":"wait","speed":1000,"to":"y:-50px;opacity:0;","ease":"Power2.easeInOut"}
-                        ]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-
-                        style="z-index: 13;
-                        font-weight: 500;
-                        color:#fff;
-                        border-width:0px;font-family: 'Exo', sans-serif;">
-                        We only hire great people who strive to push their ideas into fruition by outmuscling and outhustling the competition.
-                        </div>
 
                         <!-- LAYER NR. 5 [ for see all service botton ] -->
                         <div class="tp-caption tp-resizeme"
@@ -264,35 +236,7 @@
                         color:#fff;
                         border-width:0px; font-family: 'Exo', sans-serif; text-transform:uppercase;">We will build your dream home.</div>
 
-                        <!-- LAYER NR. 4 [ for paragraph] -->
-                        <div class="tp-caption  tp-resizeme"
-                        id="slide-902-layer-4"
-                        data-x="['left','left','left','left']" data-hoffset="['30','120','30','30']"
-                        data-y="['middle','middle','middle','middle']" data-voffset="['50','130','100','80']"
-                        data-fontsize="['16','16','20','14']"
-                        data-lineheight="['30','30','30','22']"
-                        data-width="['600','600','90%','90%']"
-                        data-height="['none','none','none','none']"
-                        data-whitespace="['normal','normal','normal','normal']"
 
-                        data-type="text"
-                        data-responsive_offset="on"
-                        data-frames='[
-                        {"from":"y:100px(R);opacity:0;","speed":2000,"to":"o:1;","delay":1500,"ease":"Power4.easeOut"},
-                        {"delay":"wait","speed":1000,"to":"y:-50px;opacity:0;","ease":"Power2.easeInOut"}
-                        ]'
-                        data-textAlign="['left','left','left','left']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-
-                        style="z-index: 13;
-                        font-weight: 500;
-                        color:#fff;
-                        border-width:0px;font-family: 'Exo', sans-serif;">
-                        We only hire great people who strive to push their ideas into fruition by outmuscling and outhustling the competition.
-                        </div>
 
                         <!-- LAYER NR. 5 [ for see all service botton ] -->
                         <div class="tp-caption tp-resizeme"
