@@ -372,7 +372,7 @@
 
                                 <div class="wt-info p-a30  p-b0">
                                     <div class="team-detail  text-center">
-                                        <h3 class="m-t0 team-name"><a href="team-single.html" class=" site-text-secondry">Malcolm Franzcrip</a></h3>
+                                        <h3 class="m-t0 team-name"><a href="team-single.html" class=" site-text-secondry">Kennedy Koskey</a></h3>
                                         <span class="title-style-2 team-position site-text-primary">Contractor</span>
                                     </div>
                                 </div>
