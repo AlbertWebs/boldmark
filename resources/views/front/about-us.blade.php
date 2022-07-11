@@ -86,7 +86,7 @@
         <!-- ABOUT SECTION  SECTION END -->
 
         <!-- VIDEO SECTION START -->
-        <div class="section-full video2-counter-section p-t80 p-b40  overlay-wraper bg-cover bg-no-repeat" style="background-image:url(images/background/bg-2.jpg);">
+        <div class="section-full video2-counter-section p-t80 p-b40  overlay-wraper bg-cover bg-no-repeat" id="mission" style="background-image:url('{{asset('theme/images/background/bg-2.jpg')}}');">
             <div class="overlay-main site-bg-secondry opacity-09"></div>
 
                     <div class="container">

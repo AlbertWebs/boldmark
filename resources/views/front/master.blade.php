@@ -141,9 +141,9 @@
                                     <li><a href="{{url('/')}}/about-us"><span class="fa fa-info"></span> About Us</a>
                                         <ul class="sub-menu">
                                             <li><a href="{{url('/')}}/about-us#mission">Mission</a></li>
-                                            <li><a href="{{url('/')}}/about-us#vision">Vision</a></li>
-                                            <li><a href="{{url('/')}}/about-us#strategy">Strategy</a></li>
-                                            <li><a href="{{url('/')}}/about-us#human-capital">Human Capital</a></li>
+
+                                            <li><a href="{{url('/')}}/about-us#mission">Strategy</a></li>
+                                            <li><a href="{{url('/')}}/about-us#mission">Human Capital</a></li>
                                         </ul>
 
                                     </li>
