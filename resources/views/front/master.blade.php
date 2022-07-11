@@ -62,149 +62,134 @@
 <body>
 
 	<div class="page-wraper">
+        <header class="site-header header-style-3 mobile-sider-drawer-menu">
 
-        <!-- HEADER START -->
-        <header class="site-header header-style-11  mobile-sider-drawer-menu">
-            <div class="header-style-11-content">
-                 <div class="header-middle-wraper">
-                    <div class="container">
-                        <div class="header-middle d-flex justify-content-between align-items-center">
+            <div class="top-bar site-bg-secondry">
+                <div class="container">
+
+                        <div class="d-flex justify-content-between">
+                            <div class="wt-topbar-left d-flex flex-wrap align-content-start">
+                                <ul class="wt-topbar-info e-p-bx text-white">
+                                    <li><span> Monday - Saturday</span><span>8AM -7PM</span></li>
+                                </ul>
+                            </div>
+
+                            <div class="wt-topbar-right d-flex flex-wrap align-content-center">
+                                <ul class="wt-topbar-info-2 e-p-bx text-white">
+                                    <li><i class="fa fa-phone"></i>+254 0703 895999</li>
+                                    <li><i class="fa fa-envelope"></i>info@boldmark.co.ke</li>
+                                </ul>
+
+                                <ul class="social-icons">
+                                    <li><a href="javascript:void(0);" class="fa fa-google"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+           <div class="sticky-wrapper"><div class="sticky-header main-bar-wraper  navbar-expand-lg">
+                <div class="main-bar">
+                       <div class="container clearfix">
+
                             <div class="logo-header">
                                 <div class="logo-header-inner logo-header-one">
                                     <a href="{{url('/')}}">
-                                    <img src="{{url('/')}}/uploads/logo.png" alt="BoldMarkLogo">
+                                    <img src="{{url('/')}}/uploads/logo.png" alt="">
                                     </a>
                                 </div>
                             </div>
 
-                            <div class="header-info-wraper">
+                            <!-- NAV Toggle Button -->
+                            <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar icon-bar-first"></span>
+                                <span class="icon-bar icon-bar-two"></span>
+                                <span class="icon-bar icon-bar-three"></span>
+                            </button>
 
-                                <div class="header-info">
-                                    <ul>
-                                        <li>
-                                            <div class="wt-icon-box-wraper  left">
-                                                <div class="wt-icon-box-xs site-bg-primary radius">
-                                                    <span class="icon-cell site-text-white"><i class="fa fa-map-marker"></i></span>
-                                                </div>
-                                                <div class="icon-content">
-                                                    <p>Moi Avenue , Nairobi Kenya</p>
-                                                    <h4 class="wt-tilte">Pricely House, rm 321</h4>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div class="wt-icon-box-wraper  left">
-                                                <div class="wt-icon-box-xs site-bg-primary radius">
-                                                    <span class="icon-cell site-text-white"><i class="fa fa-envelope"></i></span>
-                                                </div>
-                                                <div class="icon-content">
-                                                    <p>Send Us Email</p>
-                                                    <h4 class="wt-tilte">info@boldmark.co.ke</h4>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div class="wt-icon-box-wraper left">
-                                                <div class="wt-icon-box-xs site-bg-primary radius">
-                                                    <span class="icon-cell site-text-white"><i class="fa fa-phone"></i></span>
-                                                </div>
-                                                <div class="icon-content">
-                                                    <p>Get Quick Support</p>
-                                                    <h4 class="wt-tilte">0703 895999</h4>
-                                                </div>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                 </div>
-                <div class="header-bottom">
-                    <div class="sticky-header main-bar-wraper  navbar-expand-lg">
-
-                        <div class="main-bar header-bottom">
-                            <div class="container-block clearfix">
-
-                                <div class="navigation-bar">
-                                    <!-- NAV Toggle Button -->
-                                    <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar icon-bar-first"></span>
-                                        <span class="icon-bar icon-bar-two"></span>
-                                        <span class="icon-bar icon-bar-three"></span>
-                                    </button>
-
-                                    <!-- MAIN Vav -->
-                                    <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-between">
-
-                                        <ul class=" nav navbar-nav">
-                                            <li><a href="javascript:;">Home</a>
-
-                                            </li>
-                                            <li><a href="javascript:;">About Us</a>
-
-                                            </li>
-                                            <li><a href="javascript:;">Mission</a>
-
-                                            </li>
-                                            <li><a href="javascript:;">Vision</a>
-
-                                            </li>
-                                            <li><a href="javascript:;">Strategy</a>
-
-                                            </li>
-                                            <li><a href="javascript:;">Health and Safety</a>
-
-                                            </li>
-                                            <li><a href="javascript:;">News</a>
-
-                                            </li>
-
-                                            <li><a href="javascript:;">Services</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="#">Architectural and structural designs</a></li>
-                                                    <li><a href="#">Preparation of bills of quantities</a></li>
-                                                    <li><a href="#">Project management consultancy</a></li>
-                                                    <li><a href="#">Renovations</a></li>
-                                                    <li><a href="#">Construction</a></li>
-                                                    <li><a href="#">Interior design and fit-outs</a></li>
-                                                </ul>
-                                            </li>
-
-                                            <li><a download href="{{url('/')}}/uploads/New-Boldmark-Profile-rd.pdf"><span class="fa fa-download"></span> Company Profile</a></li>
-                                            <li><a href="{{url('/')}}/contact-us">Contact us</a></li>
-                                        </ul>
-
+                            <div class="extra-nav header-2-nav">
+                                <div class="extra-cell">
+                                    <div class="header-search">
+                                        <a href="javascript:void(0);" class="header-search-icon"><i class="fa fa-search"></i></a>
+                                    </div>
+                                    <div class="header-nav-request">
+                                        <a href="{{url('/')}}/contact-us" class="contact-slide-show">Get a Quote <i class="fa fa-angle-right"></i></a>
                                     </div>
 
-
-
                                 </div>
+
+                             </div>
+
+
+                            <!-- MAIN Vav -->
+                            <div class="nav-animation header-nav navbar-collapse d-flex justify-content-center collapse" style="">
+
+                                <ul class=" nav navbar-nav">
+
+                                    <li><a href="javascript:;">About Us</a>
+
+                                    </li>
+                                    <li><a href="javascript:;">Mission</a>
+
+                                    </li>
+                                    <li><a href="javascript:;">Vision</a>
+
+                                    </li>
+                                    <li><a href="javascript:;">Strategy</a>
+
+                                    </li>
+                                    <li><a href="javascript:;">Health and Safety</a>
+
+                                    </li>
+                                    <li><a href="javascript:;">News</a>
+
+                                    </li>
+
+                                    <li><a href="javascript:;">Services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Architectural and structural designs</a></li>
+                                            <li><a href="#">Preparation of bills of quantities</a></li>
+                                            <li><a href="#">Project management consultancy</a></li>
+                                            <li><a href="#">Renovations</a></li>
+                                            <li><a href="#">Construction</a></li>
+                                            <li><a href="#">Interior design and fit-outs</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a download href="{{url('/')}}/uploads/New-Boldmark-Profile-rd.pdf"><span class="fa fa-download"></span> Company Profile</a></li>
+                                    <li><a href="{{url('/')}}/contact-us"><span class="fa fa-phone"></span>  Contact us</a></li>
+                                </ul>
 
                             </div>
-                        </div>
 
-
-                        <!-- SITE Search -->
-                        <div id="search-two">
-                            <span class="close"></span>
-                            <form role="search-two" id="searchform" action="https://thewebmax.com/search" method="get" class="radius-xl">
-                                <div class="input-group">
-                                    <input class="form-control" value="" name="q" type="search" placeholder="Type to search"/>
-                                    <span class="input-group-append"><button type="button" class="search-btn"><i class="fa fa-paper-plane"></i></button></span>
+                            <!-- SITE Search -->
+                            <div id="search-toggle-block">
+                                <div id="search">
+                                    <form role="search" id="searchform" action="#" method="get" class="radius-xl">
+                                        <div class="input-group">
+                                            <input class="form-control" value="" name="q" type="search" placeholder="Type to search">
+                                            <span class="input-group-append"><button type="button" class="search-btn"><i class="fa fa-search"></i></button></span>
+                                        </div>
+                                    </form>
                                 </div>
-                            </form>
-                        </div>
+                            </div>
 
+                        </div>
                     </div>
-                </div>
-            </div>
+
+            </div></div>
 
         </header>
+
+        <!-- HEADER START -->
+
         <!-- HEADER END -->
 
         @yield('content')

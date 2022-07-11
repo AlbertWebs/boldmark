@@ -33,7 +33,7 @@
                                     <div class="acod-head  acc-actives">
                                          <h3 class="acod-title">
                                             <a data-toggle="collapse" href="#collapseOne5" data-parent="#accordion5" >
-                                                Introduction
+                                                General Information
                                                 <span class="indicator"><i class="fa fa-plus"></i></span>
                                             </a>
                                          </h3>
@@ -41,8 +41,7 @@
                                     <div id="collapseOne5" class="acod-body collapse show">
                                         <div class="acod-content p-a20 bg-gray">
                                             <p>
-                                                Last updated: May 17, 2022
-                                                It is highly reccomended that you read these Terms and Conditions carefully before using the www.boldmark.co.ke website operated by Boldmark Construction LTD . Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service. By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service. The Terms and Conditions agreement for Boldmark Construction LTD has been created by boldmark.co.ke.
+                                                Boldmark Construction LTD values privacy of any person or organization, business in nature or otherwise. We are therefore committed to protecting any personal information collected through the boldmark.co.ke website Boldmark Construction LTD may from time to time change this information and will inform all interested parties of the changes.
                                             </p>
                                         </div>
                                     </div>
@@ -52,49 +51,32 @@
                                     <div class="acod-head">
                                          <h3 class="acod-title">
                                             <a data-toggle="collapse" href="#collapseTwo5" class="collapsed" data-parent="#accordion5" >
-                                                Links To Other Websites
+                                                Policies
                                                 <span class="indicator"><i class="fa fa-plus"></i></span>
                                             </a>
                                          </h3>
                                     </div>
                                     <div id="collapseTwo5" class="acod-body collapse">
                                         <div class="acod-content p-a20 bg-gray">
-                                            Our Service may contain links to third-party web sites or services that are not owned or controlled by Designekta Studios. Designekta has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Designekta shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services. We strongly advise you to read the terms and conditions and privacy policies of any third-party web sites or services that you visit.
+                                            {{--  --}}
+                                            <div class="col-12 align-self-center">
+
+
+                                                                        <p><br></p><h4><i>Personal Information Collected</i>
+                                                </h4>boldmark.co.ke will gather information in the background when any person or legal entity visits the boldmark.co.ke website using cookies. This may include IP address, device type, Internet browser type, operating system, location and other device specific infomation. Data collected is for business intelligence meant for enhancing user experience any time a user visits the boldmark.co.ke.<h4>&nbsp;<i>Management of personal database</i></h4>
+                                                <span> You can choose whether you wish to receive promotional communications from our web site by email using the subscribe form in the footer section of this page. If you receive promotional email or SMS messages from us and would like to opt out, you can request deletion of your email info@boldmark.co.ke. </span> <span><br><br>
+                                                </span>
+                                                <h4><i>Contact</i></h4>&nbsp;You have the right to review the personal data we keep about you. You can request an overview of your personal data that by emailing&nbsp;info@boldmark.co.ke with the subject line Request for personal information. To help us prevent fraudulent collection of personal information, please include a scan of your passport or identity card. If you would like us to remove your personal information from our database, please email&nbsp;info@boldmark.co.ke with the subject line Request for removal of personal information. Please bear in mind that we may need to retain certain information for legal and/or administrative purposes such as record keeping or to detect fraudulent or criminal activities. <br><br><p></p>
+
+                                            </div>
+                                            {{--  --}}
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="panel wt-panel">
-                                    <div class="acod-head">
-                                         <h3 class="acod-title">
-                                            <a data-toggle="collapse" href="#collapseThree5" class="collapsed" data-parent="#accordion5">
-                                             Changes
-                                            <span class="indicator"><i class="fa fa-plus"></i></span>
-                                            </a>
-                                         </h3>
-                                    </div>
-                                    <div id="collapseThree5" class="acod-body collapse">
-                                        <div class="acod-content p-a20 bg-gray">
-                                            We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion. By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using the Service.
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="panel wt-panel">
-                                    <div class="acod-head">
-                                        <h3 class="acod-title">
-                                        <a data-toggle="collapse"  href="#collapseFour5" class="collapsed"  data-parent="#accordion5">
-                                        Contact Us
-                                        <span class="indicator"><i class="fa fa-plus"></i></span>
-                                        </a>
-                                     </h3>
-                                    </div>
-                                    <div id="collapseFour5" class="acod-body collapse">
-                                        <div class="acod-content p-a20 bg-gray">
-                                            If you have any questions about these Terms, please contact us through info@boldmark.co.ke.
-                                        </div>
-                                    </div>
-                                </div>
+
+
 
 
                             </div>
