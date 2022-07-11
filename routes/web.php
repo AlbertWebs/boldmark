@@ -38,3 +38,7 @@ Route::get('/copyright', function () {
 Route::get('/health-and-safety', function () {
     return view('front.health-and-safety');
 });
+
+Route::get('/about-us', function () {
+    return view('front.about-us');
+});

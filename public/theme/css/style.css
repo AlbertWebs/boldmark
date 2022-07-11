@@ -12442,7 +12442,11 @@ Spin circle
 .video-section-info{padding: 30px; position: relative; bottom: -70px; margin-top: -70px;}
 .video-section-blockquote{border-left:4px solid #7c141c; position:relative;padding-left: 80px;}
 .video-section-blockquote .fa-quote-left{position: absolute; left: 10px; top: 0px; color: rgba(255,255,255,0.2); font-size: 60px; }
-.video-section-blockquote .q-author-detail{font-size:30px; line-height: normal;}
+.video-section-blockquote .q-author-detail
+{
+    /* font-size:30px;  */
+    line-height: normal;
+}
 .video-section-blockquote .q-author-name{font-size:24px;}
 
 .video-section-blockquote2{border-left:4px solid #7c141c; position:relative;padding-left: 80px;}

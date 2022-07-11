@@ -81,11 +81,12 @@
                                 </ul>
 
                                 <ul class="social-icons">
-                                    <li><a href="javascript:void(0);" class="fa fa-google"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
                                     <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
                                     <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
                                     <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                    <li><a href="mailto:info@boldmark.co.ke" class="fa fa-envelope"></a></li>
+                                    <li><a href="tel:0703895999" class="fa fa-phone"></a></li>
                                 </ul>
 
                             </div>
@@ -133,19 +134,21 @@
 
                                 <ul class=" nav navbar-nav">
 
-                                    <li><a href="javascript:;">About Us</a>
+                                    <li><a href="{{url('/')}}"><span class="fa fa-home"></span> Home</a>
 
                                     </li>
-                                    <li><a href="javascript:;">Mission</a>
+
+                                    <li><a href="{{url('/')}}/about-us"><span class="fa fa-info"></span> About Us</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{url('/')}}/about-us#mission">Mission</a></li>
+                                            <li><a href="{{url('/')}}/about-us#vision">Vision</a></li>
+                                            <li><a href="{{url('/')}}/about-us#strategy">Strategy</a></li>
+                                            <li><a href="{{url('/')}}/about-us#human-capital">Human Capital</a></li>
+                                        </ul>
 
                                     </li>
-                                    <li><a href="javascript:;">Vision</a>
 
-                                    </li>
-                                    <li><a href="javascript:;">Strategy</a>
-
-                                    </li>
-                                    <li><a href="javascript:;">Health and Safety</a>
+                                    <li><a href="{{url('/')}}/health-and-safety">Health and Safety</a>
 
                                     </li>
                                     <li><a href="javascript:;">News</a>
@@ -216,6 +219,14 @@
                                     <li><i class="fa fa-envelope"></i>info@boldmark.co.ke</li>
                                     <li> <i class="fa fa-phone"></i>0703 895999 </li>
                                 </ul>
+                                <ul class="social-icons  wt-social-links footer-social-icon">
+                                    <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                    <li><a href="mailto:info@boldmark.co.ke" class="fa fa-envelope"></a></li>
+                                    <li><a href="tel:0703895999" class="fa fa-phone"></a></li>
+                                </ul>
                             </div>
 
                         </div>
@@ -239,7 +250,7 @@
                             <div class="widget widget_services">
                                 <h3 class="widget-title text-center">Important Links</h3>
                                 <ul class="text-center">
-                                    <li><a href="#">Health and Safety</a></li>
+                                    <li><a href="{{url('/')}}/health-and-safety">Health and Safety</a></li>
                                     <li><a href="{{url('/')}}/terms-and-conditions">Terms and Conditions</a></li>
                                     <li><a href="{{url('/')}}/copyright">Copyright Statement</a></li>
                                     <li><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></li>
