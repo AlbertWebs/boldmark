@@ -14,7 +14,7 @@
     @include('favicon')
 
     <!-- PAGE TITLE HERE -->
-    <title>Construction Company in Kenya | Boldmark Contruction Limited</title>
+    <title>Construction Contractors in Kenya | Boldmark Contractors Limited</title>
 
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -81,10 +81,10 @@
                                 </ul>
 
                                 <ul class="social-icons">
-                                    <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+                                    <li><a href="https://www.instagram.com/BoldmarkContractorsLTD/" class="fa fa-instagram"></a></li>
+                                    <li><a href="https://web.facebook.com/BoldmarkContractorsLTD" class="fa fa-facebook"></a></li>
                                     <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                    <li><a href="https://www.linkedin.com/company/boldmark-contractors-limited/" class="fa fa-linkedin"></a></li>
                                     <li><a href="mailto:info@boldmark.co.ke" class="fa fa-envelope"></a></li>
                                     <li><a href="tel:0703895999" class="fa fa-phone"></a></li>
                                 </ul>
@@ -220,10 +220,10 @@
                                     <li> <i class="fa fa-phone"></i>0703 895999 </li>
                                 </ul>
                                 <ul class="social-icons  wt-social-links footer-social-icon">
-                                    <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+                                    <li><a href="https://www.instagram.com/BoldmarkContractorsLTD/" class="fa fa-instagram"></a></li>
+                                    <li><a href="https://web.facebook.com/BoldmarkContractorsLTD" class="fa fa-facebook"></a></li>
                                     <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                    <li><a href="https://www.linkedin.com/company/boldmark-contractors-limited/" class="fa fa-linkedin"></a></li>
                                     <li><a href="mailto:info@boldmark.co.ke" class="fa fa-envelope"></a></li>
                                     <li><a href="tel:0703895999" class="fa fa-phone"></a></li>
                                 </ul>
@@ -270,7 +270,7 @@
             <div class="footer-bottom">
               <div class="container">
                 <div class="wt-footer-bot-left d-flex justify-content-between">
-                    <span class="copyrights-text">Copyright © {{date('Y')}} BoldMark Constructon LTD Powered by <span class="site-text-primary">Designekta Studios</span></span>
+                    <span class="copyrights-text">Copyright © {{date('Y')}} BoldMark Contractors LTD Powered by <span class="site-text-primary">Designekta Studios</span></span>
                     <ul class="copyrights-nav">
                         <li><a href="#">Terms & Condition</a></li>
                         <li><a href="#">Privacy Policy</a></li>
