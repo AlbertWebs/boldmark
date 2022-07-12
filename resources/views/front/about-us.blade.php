@@ -106,7 +106,7 @@
 
                                 <div class="row justify-content-center">
 
-                                    <div class="col-lg-4 col-md-6 m-b30 ">
+                                    <div class="col-lg-4 col-md-6 m-b30 " style="border:5px solid #666666; padding:50px">
                                         <div class="wt-icon-box-wraper center">
                                             <h3 class="site-text-primary">Our Mission</h3>
                                             <p class="text-white">
@@ -125,7 +125,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6 m-b30">
+                                    <div class="col-lg-4 col-md-6 m-b30" style="border:5px solid #666666; padding:50px">
                                         <div class="wt-icon-box-wraper center">
                                             <h3 class="site-text-primary">Our Strategy</h3>
                                             <p class="text-white">
@@ -143,7 +143,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6 m-b30">
+                                    <div class="col-lg-4 col-md-6 m-b30 " style="border:5px solid #666666; padding:50px">
                                         <div class="wt-icon-box-wraper center">
                                             <h3 class="site-text-primary">Human Capital</h3>
                                             <p class="text-white">
