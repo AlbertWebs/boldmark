@@ -157,12 +157,10 @@
 
                                     <li><a href="javascript:;">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="#">Architectural and structural designs</a></li>
-                                            <li><a href="#">Preparation of bills of quantities</a></li>
-                                            <li><a href="#">Project management consultancy</a></li>
-                                            <li><a href="#">Renovations</a></li>
-                                            <li><a href="#">Construction</a></li>
-                                            <li><a href="#">Interior design and fit-outs</a></li>
+                                            <?php $Services = DB::table('services')->get(); ?>
+                                            @foreach ($Services as $Ser)
+                                                <li><a href="{{url('/')}}/services/{{$Ser->slung}}">{{$Ser->title}}</a></li>
+                                            @endforeach
                                         </ul>
                                     </li>
 
@@ -235,12 +233,10 @@
                             <div class="widget widget_services">
                                 <h3 class="widget-title text-center">Services</h3>
                                 <ul class="text-center">
-                                    <li><a href="#">Architectural and structural designs</a></li>
-                                    <li><a href="#">Preparation of bills of quantities</a></li>
-                                    <li><a href="#">Project management consultancy</a></li>
-                                    <li><a href="#">Renovations</a></li>
-                                    <li><a href="#">Construction</a></li>
-                                    <li><a href="#">Interior design and fit-outs</a></li>
+                                <?php $Services = DB::table('services')->get(); ?>
+                                    @foreach ($Services as $Ser)
+                                    <li><a href="{{url('/')}}/services/{{$Ser->slung}}">{{$Ser->title}}</a></li>
+                                    @endforeach
                                 </ul>
 
                             </div>

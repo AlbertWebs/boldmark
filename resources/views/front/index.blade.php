@@ -94,139 +94,30 @@
 
             <div class="s-section">
                 <div class="row">
-                    <!-- COLUMNS 1 -->
-                    <div class="col-lg-4 col-md-6  col-sm-6 m-b30">
-                        <div class="service-icon-box-three shadow-bx text-center">
+                    <?php $Services = DB::table('services')->get(); ?>
+                    @foreach ($Services as $Ser)
+                        <!-- COLUMNS 1 -->
+                        <div class="col-lg-4 col-md-6  col-sm-6 m-b30" >
+                            <div class="service-icon-box-three shadow-bx text-center" style="border:6px solid #666666; min-height:542px;">
 
-                            <div class="wt-icon-box-wraper circle-bg  scale-up-center">
-                                <div class="icon-lg inline-icon">
-                                    <span class="icon-cell"><img src="{{asset('theme/images/home-11/icon/pic-1.png')}}"></span>
+                                <div class="wt-icon-box-wraper circle-bg  scale-up-center">
+                                    <div class="icon-lg inline-icon">
+                                        <span class="icon-cell"><img src="{{asset('theme/images/home-11/icon/')}}/{{$Ser->icon}}"></span>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="service-icon-box-title">
-                                <h4 class="wt-title"><a href="#">Architectural and structural designs</a></h4>
-                            </div>
-
-                            <div class="service-icon-box-content">
-                                <p>Lorem ipsum dolor sit and amet, adipisicing elit, sed do eiusmod tempor.</p>
-                                <a href="#" class="site-button-link site-text-primary">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- COLUMNS 2 -->
-                    <div class="col-lg-4 col-md-6  col-sm-6 m-b30">
-                        <div class="service-icon-box-three shadow-bx text-center">
-
-                            <div class="wt-icon-box-wraper circle-bg  scale-up-center">
-                                <div class="icon-lg inline-icon">
-                                    <span class="icon-cell"><img src="{{asset('theme/images/home-11/icon/pic-2.png')}}"></span>
+                                <div class="service-icon-box-title">
+                                    <h4 class="wt-title"><a href="{{url('/')}}/services/{{$Ser->slung}}">{{$Ser->title}}</a></h4>
                                 </div>
-                            </div>
 
-                            <div class="service-icon-box-title">
-                                <h4 class="wt-title"><a href="#">Preparation of bills of quantities</a></h4>
-                            </div>
-
-                            <div class="service-icon-box-content">
-                                <p>Lorem ipsum dolor sit and amet, adipisicing elit, sed do eiusmod tempor.</p>
-                                <a href="#" class="site-button-link site-text-primary">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- COLUMNS 3 -->
-                    <div class="col-lg-4 col-md-6  col-sm-6 m-b30">
-                        <div class="service-icon-box-three shadow-bx text-center">
-
-                            <div class="wt-icon-box-wraper circle-bg  scale-up-center">
-                                <div class="icon-lg inline-icon">
-                                    <span class="icon-cell"><img src="{{asset('theme/images/home-11/icon/pic-3.png')}}"></span>
+                                <div class="service-icon-box-content">
+                                    <p>{{$Ser->meta}}</p>
+                                    <a style="border:2px solid #7c141c; padding:5px; border-radius:10px;" href="{{url('/')}}/services/{{$Ser->slung}}" class="site-button-link site-text-primary">Read More</a>
                                 </div>
-                            </div>
 
-                            <div class="service-icon-box-title">
-                                <h4 class="wt-title"><a href="#">Project management consultancy</a></h4>
                             </div>
-
-                            <div class="service-icon-box-content">
-                                <p>Lorem ipsum dolor sit and amet, adipisicing elit, sed do eiusmod tempor.</p>
-                                <a href="#" class="site-button-link site-text-primary">Read More</a>
-                            </div>
-
                         </div>
-                    </div>
-
-
-                    <!-- COLUMNS 4 -->
-                    <div class="col-lg-4 col-md-6  col-sm-6 m-b30">
-                        <div class="service-icon-box-three shadow-bx text-center">
-
-                            <div class="wt-icon-box-wraper circle-bg  scale-up-center">
-                                <div class="icon-lg inline-icon">
-                                    <span class="icon-cell"><img src="{{asset('theme/images/home-11/icon/pic-4.png')}}"></span>
-                                </div>
-                            </div>
-
-                            <div class="service-icon-box-title">
-                                <h4 class="wt-title"><a href="#">Renovations</a></h4>
-                            </div>
-
-                            <div class="service-icon-box-content">
-                                <p>Lorem ipsum dolor sit and amet, adipisicing elit, sed do eiusmod tempor.</p>
-                                <a href="#" class="site-button-link site-text-primary">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- COLUMNS 4 -->
-                    <div class="col-lg-4 col-md-6  col-sm-6 m-b30">
-                        <div class="service-icon-box-three shadow-bx text-center">
-
-                            <div class="wt-icon-box-wraper circle-bg  scale-up-center">
-                                <div class="icon-lg inline-icon">
-                                    <span class="icon-cell"><img src="{{asset('theme/images/home-11/icon/pic-4.png')}}"></span>
-                                </div>
-                            </div>
-
-                            <div class="service-icon-box-title">
-                                <h4 class="wt-title"><a href="#">Construction</a></h4>
-                            </div>
-
-                            <div class="service-icon-box-content">
-                                <p>Lorem ipsum dolor sit and amet, adipisicing elit, sed do eiusmod tempor.</p>
-                                <a href="#" class="site-button-link site-text-primary">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                     <!-- COLUMNS 4 -->
-                     <div class="col-lg-4 col-md-6  col-sm-6 m-b30">
-                        <div class="service-icon-box-three shadow-bx text-center">
-
-                            <div class="wt-icon-box-wraper circle-bg  scale-up-center">
-                                <div class="icon-lg inline-icon">
-                                    <span class="icon-cell"><img src="{{asset('theme/images/home-11/icon/pic-1.png')}}"></span>
-                                </div>
-                            </div>
-
-                            <div class="service-icon-box-title">
-                                <h4 class="wt-title"><a href="#">Interior design and fit-outs</a></h4>
-                            </div>
-
-                            <div class="service-icon-box-content">
-                                <p>Lorem ipsum dolor sit and amet, adipisicing elit, sed do eiusmod tempor.</p>
-                                <a href="#" class="site-button-link site-text-primary">Read More</a>
-                            </div>
-
-                        </div>
-                    </div>
-
+                    @endforeach
 
                 </div>
             </div>
@@ -284,7 +175,8 @@
                             <!-- TITLE START-->
                             <div class="section-head left wt-small-separator-outer when-bg-dark">
                                 <div class="wt-small-separator site-text-primary">
-                                    <div>Latest Articles Updated Daily
+                                    <div>
+                                        Latest Articles Updated Daily
                                     </div>
                                 </div>
                                 {{-- <h2 class="wt-title">We Are Here To Learn You More From Blog</h2> --}}
