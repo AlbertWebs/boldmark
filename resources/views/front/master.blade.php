@@ -151,7 +151,7 @@
                                     <li><a href="{{url('/')}}/health-and-safety">Health and Safety</a>
 
                                     </li>
-                                    <li><a href="javascript:;">News</a>
+                                    <li><a href="{{url('/')}}/articles">News</a>
 
                                     </li>
 
