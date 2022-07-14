@@ -231,7 +231,7 @@
 
                         <div class="col-lg-4 col-md-6">
                             <div class="widget widget_services">
-                                <h3 class="widget-title text-center">Services</h3>
+                                <h3 class="widget-title text-center" style="text-shadow: 1px 1px #ffffff; text-transform:capitalize">Services</h3>
                                 <ul class="text-center">
                                 <?php $Services = DB::table('services')->get(); ?>
                                     @foreach ($Services as $Ser)
@@ -244,7 +244,7 @@
 
                         <div class="col-lg-4 col-md-6">
                             <div class="widget widget_services">
-                                <h3 class="widget-title text-center">Important Links</h3>
+                                <h3 class="widget-title text-center" style="text-shadow: 1px 1px #ffffff; text-transform:capitalize">Important Links</h3>
                                 <ul class="text-center">
                                     <li><a href="{{url('/')}}/health-and-safety">Health and Safety</a></li>
                                     <li><a href="{{url('/')}}/terms-and-conditions">Terms and Conditions</a></li>
@@ -266,11 +266,11 @@
             <div class="footer-bottom">
               <div class="container">
                 <div class="wt-footer-bot-left d-flex justify-content-between">
-                    <span class="copyrights-text">Copyright © {{date('Y')}} BoldMark Contractors LTD Powered by <span class="site-text-primary">Designekta Studios</span></span>
+                    <span class="copyrights-text">Copyright © {{date('Y')}} BoldMark Contractors LTD Powered by <span class="site-text-primary" style="text-transform:capitalize">Designekta Studios</span></span>
                     <ul class="copyrights-nav">
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="{{url('/')}}/terms-and-conditions">Terms & Condition</a></li>
+                        <li><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="{{url('/')}}/contact-us">Contact Us</a></li>
                     </ul>
                 </div>
               </div>

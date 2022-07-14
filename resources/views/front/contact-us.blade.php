@@ -12,7 +12,7 @@
                 <div class="wt-bnr-inr-entry">
                     <div class="banner-title-outer">
                         <div class="banner-title-name">
-                            <h2 class="site-text-primary">Contact Us</h2>
+                            <h2 class="site-text-primary" style="text-shadow: 2px 2px #ffffff; text-transform:capitalize">Contact Us</h2>
                         </div>
                     </div>
                     <!-- BREADCRUMB ROW -->

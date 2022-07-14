@@ -14,7 +14,7 @@
                 <div class="section-head center wt-small-separator-outer text-center">
                     <div class="wt-small-separator site-text-primary">
                         <div  class="sep-leaf-left"></div>
-                        <div>Health and Safety</div>
+                        <div style="text-shadow: 2px 2px #ffffff; text-transform:capitalize">Health and Safety</div>
                         <div  class="sep-leaf-right"></div>
                     </div>
                 </div>

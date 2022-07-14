@@ -193,19 +193,41 @@
                         <div class="owl-carousel blog-gallery-one owl-btn-vertical-center ">
 
                             <!-- COLUMNS 1 -->
-                            <div class="item ">
+                            <div class="item">
                                 <div class="blog-post latest-blog-11  block-shadow">
                                     <div class="wt-post-media wt-img-effect zoom-slow">
-                                        <a href="javascript:;"><img src="{{asset('theme/images/home-11/blog/bg5.jpg')}}" alt=""></a>
+                                        <a targer="new" href="https://boldmark.co.ke/articles/2022/07/14/will-the-skyscrapers-of-the-future-be-made-out-of-wood/"><img src="https://boldmark.co.ke/articles/wp-content/uploads/2022/07/image.jpg" alt=""></a>
                                     </div>
                                     <div class="wt-post-info  bg-white">
                                         <div class="wt-post-meta ">
                                             <ul>
-                                                <li class="post-date">March 9, 2022</li>
+                                                <li class="post-date">July 14, 2022</li>
                                             </ul>
                                         </div>
                                         <div class="wt-post-title ">
-                                            <h4 class="post-title">Broad vision. Careful thought. Hand-crafted design.</h4>
+                                            <h4 class="post-title">Will the skyscrapers of the future be made out of wood?</h4>
+                                        </div>
+                                        <div class="wt-post-readmore">
+                                            <a href="https://boldmark.co.ke/articles/2022/07/14/will-the-skyscrapers-of-the-future-be-made-out-of-wood/" class="site-button-link site-text-primary">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COLUMNS 1 -->
+                            <div class="item">
+                                <div class="blog-post latest-blog-11  block-shadow">
+                                    <div class="wt-post-media wt-img-effect zoom-slow">
+                                        <a targer="new" href="https://boldmark.co.ke/articles/2022/01/18/top-construction-industry-trends-to-watch-for-in-2022/"><img style="max-height:375px;" src="https://boldmark.co.ke/articles/wp-content/uploads/2022/07/photo-1583248483203-555f3d850303.jpeg" alt=""></a>
+                                    </div>
+                                    <div class="wt-post-info  bg-white">
+                                        <div class="wt-post-meta ">
+                                            <ul>
+                                                <li class="post-date">July 14, 2022</li>
+                                            </ul>
+                                        </div>
+                                        <div class="wt-post-title ">
+                                            <h4 class="post-title">Top Construction Industry Trends To Watch For In 2022</h4>
                                         </div>
                                         <div class="wt-post-readmore">
                                             <a href="Javascript:;" class="site-button-link site-text-primary">Read More</a>
@@ -214,115 +236,6 @@
                                 </div>
                             </div>
 
-                            <!-- COLUMNS 2 -->
-                            <div class="item ">
-                                <div class="blog-post latest-blog-11  block-shadow">
-                                    <div class="wt-post-media wt-img-effect zoom-slow">
-                                        <a href="javascript:;"><img src="{{asset('theme/images/home-11/blog/bg5.jpg')}}" alt=""></a>
-                                    </div>
-                                    <div class="wt-post-info  bg-white">
-                                        <div class="wt-post-meta ">
-                                            <ul>
-                                                <li class="post-date">March 9, 2022</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wt-post-title ">
-                                            <h4 class="post-title">Building your dream house shouldn’t be a nightmare!</h4>
-                                        </div>
-                                        <div class="wt-post-readmore">
-                                            <a href="Javascript:;" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- COLUMNS 3 -->
-                            <div class="item ">
-                                <div class="blog-post latest-blog-11  block-shadow">
-                                    <div class="wt-post-media wt-img-effect zoom-slow">
-                                        <a href="javascript:;"><img src="{{asset('theme/images/home-11/blog/bg5.jpg')}}" alt=""></a>
-                                    </div>
-                                    <div class="wt-post-info  bg-white">
-                                        <div class="wt-post-meta ">
-                                            <ul>
-                                                <li class="post-date">March 9, 2022</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wt-post-title ">
-                                            <h4 class="post-title">Creating quality urban lifestyles, building stronger communities.</h4>
-                                        </div>
-                                        <div class="wt-post-readmore">
-                                            <a href="Javascript:;" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- COLUMNS 4 -->
-                            <div class="item ">
-                                <div class="blog-post latest-blog-11  block-shadow">
-                                    <div class="wt-post-media wt-img-effect zoom-slow">
-                                        <a href="javascript:;"><img src="{{asset('theme/images/home-11/blog/bg5.jpg')}}" alt=""></a>
-                                    </div>
-                                    <div class="wt-post-info  bg-white">
-                                        <div class="wt-post-meta ">
-                                            <ul>
-                                                <li class="post-date">March 9, 2022</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wt-post-title ">
-                                            <h4 class="post-title">For your roofing and siding, quality we’ll be providing!</h4>
-                                        </div>
-                                        <div class="wt-post-readmore">
-                                            <a href="Javascript:;" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- COLUMNS 5 -->
-                            <div class="item ">
-                                <div class="blog-post latest-blog-11  block-shadow">
-                                    <div class="wt-post-media wt-img-effect zoom-slow">
-                                        <a href="javascript:;"><img src="{{asset('theme/images/home-11/blog/bg5.jpg')}}" alt=""></a>
-                                    </div>
-                                    <div class="wt-post-info  bg-white">
-                                        <div class="wt-post-meta ">
-                                            <ul>
-                                                <li class="post-date">March 9, 2022</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wt-post-title ">
-                                            <h4 class="post-title">Doing it right costs less than doing it over!</h4>
-                                        </div>
-                                        <div class="wt-post-readmore">
-                                            <a href="Javascript:;" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- COLUMNS 6 -->
-                            <div class="item ">
-                                <div class="blog-post latest-blog-11  block-shadow">
-                                    <div class="wt-post-media wt-img-effect zoom-slow">
-                                        <a href="javascript:;"><img src="{{asset('theme/images/home-11/blog/bg5.jpg')}}" alt=""></a>
-                                    </div>
-                                    <div class="wt-post-info  bg-white">
-                                        <div class="wt-post-meta ">
-                                            <ul>
-                                                <li class="post-date">March 9, 2022</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wt-post-title ">
-                                            <h4 class="post-title">Developing our people, Growing our business.</h4>
-                                        </div>
-                                        <div class="wt-post-readmore">
-                                            <a href="Javascript:;" class="site-button-link site-text-primary">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                     </div>
