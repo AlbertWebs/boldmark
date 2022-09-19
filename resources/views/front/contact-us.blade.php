@@ -165,7 +165,7 @@
             <div class="section-content">
                 <div class="container">
                     <div class="gmap-outline">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.277519149899!2d36.8222851!3d-1.2821533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb39310a139138d6!2sDesignekta%20Studios!5e0!3m2!1sen!2ske!4v1657449850286!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2041491.5358486967!2d37.1692338!3d-2.0406024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf914feae6b2c33f1!2sBoldMark%20Contractors%20Limited!5e0!3m2!1sen!2ske!4v1663578266839!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
