@@ -113,7 +113,7 @@
 
                                                     <div class="icon-content">
                                                         <h3 class="m-t0 site-text-primary">Phone number</h3>
-                                                        <p>(+254) 0703 895999</p>
+                                                        <p>(+254) 0705 840 760</p>
                                                     </div>
                                                 </div>
 

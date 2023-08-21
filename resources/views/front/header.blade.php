@@ -46,7 +46,7 @@
                                         </div>
                                         <div class="icon-content">
                                             <p>Get Quick Support</p>
-                                            <h4 class="wt-tilte">0703 895999</h4>
+                                            <h4 class="wt-tilte">0705 840 760</h4>
                                         </div>
                                     </div>
                                 </li>

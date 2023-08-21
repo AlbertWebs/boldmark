@@ -76,7 +76,7 @@
 
                             <div class="wt-topbar-right d-flex flex-wrap align-content-center">
                                 <ul class="wt-topbar-info-2 e-p-bx text-white">
-                                    <li><i class="fa fa-phone"></i>+254 0703 895999</li>
+                                    <li><i class="fa fa-phone"></i>+254 0705 840 760</li>
                                     <li><i class="fa fa-envelope"></i>info@boldmark.co.ke</li>
                                 </ul>
 
@@ -215,7 +215,7 @@
                                <ul class="widget_address">
                                     <li><i class="fa fa-map-marker"></i>Moi Avenue , Nairobi Kenya, Pricely House, rm 321</li>
                                     <li><i class="fa fa-envelope"></i>info@boldmark.co.ke</li>
-                                    <li> <i class="fa fa-phone"></i>0703 895999 </li>
+                                    <li> <i class="fa fa-phone"></i>0705 840 760 </li>
                                 </ul>
                                 <ul class="social-icons  wt-social-links footer-social-icon">
                                     <li><a href="https://www.instagram.com/BoldmarkContractorsLTD/" class="fa fa-instagram"></a></li>
